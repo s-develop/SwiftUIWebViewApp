@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            SwWebView(url: URL(string: "https://www.2dsl.ru"))
+                .navigationTitle("2dsl.ru: Компьютеры, софт, гаджеты")
+                .font(.caption) 
+        }
     }
 }
 

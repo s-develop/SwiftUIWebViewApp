@@ -13,6 +13,7 @@
 		26B2B6F72723FB81008A9A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B2B6F62723FB81008A9A73 /* Assets.xcassets */; };
 		26B2B6FA2723FB81008A9A73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B2B6F92723FB81008A9A73 /* Preview Assets.xcassets */; };
 		26B2B6FD2723FB81008A9A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B2B6FB2723FB81008A9A73 /* LaunchScreen.storyboard */; };
+		26B2B7052723FC57008A9A73 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B2B7042723FC57008A9A73 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		26B2B6F92723FB81008A9A73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		26B2B6FC2723FB81008A9A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26B2B6FE2723FB81008A9A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B2B7042723FC57008A9A73 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				26B2B6F02723FB7F008A9A73 /* AppDelegate.swift */,
 				26B2B6F22723FB7F008A9A73 /* SceneDelegate.swift */,
 				26B2B6F42723FB7F008A9A73 /* ContentView.swift */,
+				26B2B7042723FC57008A9A73 /* WebView.swift */,
 				26B2B6F62723FB81008A9A73 /* Assets.xcassets */,
 				26B2B6FB2723FB81008A9A73 /* LaunchScreen.storyboard */,
 				26B2B6FE2723FB81008A9A73 /* Info.plist */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26B2B6F12723FB7F008A9A73 /* AppDelegate.swift in Sources */,
+				26B2B7052723FC57008A9A73 /* WebView.swift in Sources */,
 				26B2B6F32723FB7F008A9A73 /* SceneDelegate.swift in Sources */,
 				26B2B6F52723FB7F008A9A73 /* ContentView.swift in Sources */,
 			);
